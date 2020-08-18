@@ -1,0 +1,3 @@
+基于consul实现微服务注册与调用
+main.go 提供了求和服务，并注册到consul上
+client.go通过调用main.go提供的接口服务，实现求和操作，并将自身作为微服务注册到consul上
